@@ -12,6 +12,10 @@ html {
     color: #07347a;
 }
 
+@-ms-viewport{
+	width: device-width;
+}
+
 ul, nav {
 	list-style: none;
 }

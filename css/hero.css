@@ -12,6 +12,10 @@ a.btn:hover {
 	border: 1px solid white;
 }
 
+@-ms-viewport{
+	width: device-width;
+}
+
 .hero {
 	display: flex;
 	flex-direction: column;
