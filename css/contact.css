@@ -5,10 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-@-ms-viewport{
-    width: device-width;
-}
-
 .contact_footer .contact_container {
     height: 100%;
     width: 80%;

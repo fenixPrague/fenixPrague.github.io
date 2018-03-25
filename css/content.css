@@ -13,10 +13,6 @@
             font-family: 'Montserrat', sans-serif;
 }
 
-@-ms-viewport{
-    width: device-width;
-}
-
 .info {
     width: 40%;
     display: -webkit-box;
