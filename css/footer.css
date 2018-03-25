@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #607d8b;
+	color: #fff;
+    padding: 20px 0;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer #designer a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    footer {
+        width: 100%; 
+        align-items: flex-start;
+        flex-wrap: wrap;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    footer #designer {
+        margin-top: 5px;
+    }
+    
+}

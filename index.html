@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fenix Exchange</title>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display+SC" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/hero.css">
+        <link rel="stylesheet" href="./css/content.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="btn_languages">
+                <li id="cz"><a>CZ</a></li>
+                <li id="en"><a>EN</a></li>
+                <li id="ru"><a>RU</a></li>
+            </nav>
+            <nav>
+                <li><a href="#table_href">Rates</a></li>
+                <li><a href="#location">Contact</a></li>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="background-image" style="background-image: url(./img/prague2.jpg);"></div>
+            <div class="hero-content-area">
+                <h1>Fenix Exchange</h1>
+                <h3>The best exchange in Prague</h3>
+                <h3 id="zero">0% comission</h3>
+                <a href="#location" class="btn">Contact Us Now</a>
+            </div>
+        </section>
+        <hr class="line">
+        <section class="courses_and_calculator" id="table_href">
+            <div class="info">
+                <table id="ratetable_cz" class="courses_table">
+                        <thead>
+                            <th colspan="4" class="ratetable_text">Kurzy</th>
+                        </thead>
+                        <thead>
+                                <th class="currency" colspan="2" width="30%">Měna</th>
+                                <th class="buy" width="15%">Nákup</th>
+                                <th class="sell" width="15%">Prodej</th>
+                        </thead>
+                        <tbody>
+                                <tr class="currency eur">
+                                    <td class="currency_img"><img src="./img/eur-flag.png"></td>
+                                    <td class="currency_value">1 EUR</td>
+                                    <td class="currency_buy">25.50</td>
+                                    <td class="currency_sell">24.00</td>
+                                </tr>
+                                <tr class="currency usd">
+                                        <td class="currency_img"><img src="./img/usd-flag.png"></td>
+                                        <td class="currency_value">1 USD</td>
+                                        <td class="currency_buy">20.50</td>
+                                        <td class="currency_sell">21.00</td>
+                                </tr>
+                                <tr class="currency gbp">
+                                        <td class="currency_img"><img src="./img/gbp-flag.png"></td>
+                                        <td class="currency_value">1 GBP</td>
+                                        <td class="currency_buy">28.00</td>
+                                        <td class="currency_sell">28.80</td>
+                                </tr>
+                                <tr class="currency chf">
+                                        <td class="currency_img"><img src="./img/chf-flag.png"></td>
+                                        <td class="currency_value">1 CHF</td>
+                                        <td class="currency_buy">21.00</td>
+                                        <td class="currency_sell">22.10</td>
+                                </tr>
+                                <tr class="currency dkk">
+                                        <td class="currency_img"><img src="./img/dkk-flag.png"></td>
+                                        <td class="currency_value">1 DKK</td>
+                                        <td class="currency_buy">3.30</td>
+                                        <td class="currency_sell">3.45</td>
+                                </tr>
+                                <tr class="currency jpy">
+                                        <td class="currency_img"><img src="./img/jpy-flag.png"></td>
+                                        <td class="currency_value">100 JPY</td>
+                                        <td class="currency_buy">18.50</td>
+                                        <td class="currency_sell">19.90</td>
+                                </tr>
+                                <tr class="currency cad">
+                                        <td class="currency_img"><img src="./img/cad-flag.png"></td>
+                                        <td class="currency_value">1 CAD</td>
+                                        <td class="currency_buy">16.00</td>
+                                        <td class="currency_sell">16.50</td>
+                                </tr>
+                                <tr class="currency nok">
+                                        <td class="currency_img"><img src="./img/nok-flag.png"></td>
+                                        <td class="currency_value">1 NOK</td>
+                                        <td class="currency_buy">16.00</td>
+                                        <td class="currency_sell">16.50</td>
+                                </tr>
+                                <tr class="currency sek">
+                                        <td class="currency_img"><img src="./img/sek-flag.png"></td>
+                                        <td class="currency_value">1 SEK</td>
+                                        <td class="currency_buy">16.00</td>
+                                        <td class="currency_sell">16.50</td>
+                                </tr>
+                                <tr class="currency aud">
+                                        <td class="currency_img"><img src="./img/aud-flag.png"></td>
+                                        <td class="currency_value">1 AUD</td>
+                                        <td class="currency_buy">16.00</td>
+                                        <td class="currency_sell">16.50</td>
+                                </tr>
+                                <tr class="currency rub">
+                                        <td class="currency_img"><img src="./img/rub-flag.png"></td>
+                                        <td class="currency_value">100 RUB</td>
+                                        <td class="currency_buy">16.00</td>
+                                        <td class="currency_sell">16.50</td>
+                                </tr>
+                                <tr class="currency hrk">
+                                        <td class="currency_img"><img src="./img/hrk-flag.png"></td>
+                                        <td class="currency_value">1 HRK</td>
+                                        <td class="currency_buy">16.00</td>
+                                        <td class="currency_sell">16.50</td>
+                                </tr>
+                                <tr class="currency huf">
+                                        <td class="currency_img"><img src="./img/huf-flag.png"></td>
+                                        <td class="currency_value">1 HUF</td>
+                                        <td class="currency_buy">16.00</td>
+                                        <td class="currency_sell">16.50</td>
+                                </tr>
+                                <tr class="currency uah">
+                                        <td class="currency_img"><img src="./img/uah-flag.png"></td>
+                                        <td class="currency_value">1 UAH</td>
+                                        <td class="currency_buy">16.00</td>
+                                        <td class="currency_sell">16.50</td>
+                                </tr>
+                                <tr class="currency pln">
+                                        <td class="currency_img"><img src="./img/pln-flag.png"></td>
+                                        <td class="currency_value">1 PLN</td>
+                                        <td class="currency_buy">16.00</td>
+                                        <td class="currency_sell">16.50</td>
+                                </tr>
+                            </tbody>
+    
+                    </table>
+    
+                    <table id="ratetable_vip_cz" class="courses_table">
+                            <thead>
+                                <th colspan="4" class="ratetable_text">VIP - kurzy</th>
+                            </thead>
+                            <thead>
+                                    <th class="currency" colspan="2" width="30%">Měna</th>
+                                    <th class="buy" width="15%">Nákup</th>
+                                    <th class="sell" width="15%">Prodej</th>
+                            </thead>
+                            <tbody>
+                                    <tr class="currency eur">
+                                        <td class="currency_img"><img src="./img/eur-flag.png"></td>
+                                        <td class="currency_value">1 EUR</td>
+                                        <td class="currency_vip_buy">25.59</td>
+                                        <td class="currency_vip_sell">25.00</td>
+                                    </tr>
+                                    <tr class="currency usd">
+                                            <td class="currency_img"><img src="./img/usd-flag.png"></td>
+                                            <td class="currency_value">1 USD</td>
+                                            <td class="currency_vip_buy">20.79</td>
+                                            <td class="currency_vip_sell">20.90</td>
+                                    </tr>
+                                    <tr class="currency gbp">
+                                            <td class="currency_img"><img src="./img/gbp-flag.png"></td>
+                                            <td class="currency_value">1 GBP</td>
+                                            <td class="currency_vip_buy">28.47</td>
+                                            <td class="currency_vip_sell">28.70</td>
+                                    </tr>
+                                    <tr class="currency chf">
+                                            <td class="currency_img"><img src="./img/chf-flag.png"></td>
+                                            <td class="currency_value">1 CHF</td>
+                                            <td class="currency_vip_buy">21.95</td>
+                                            <td class="currency_vip_sell">22.05</td>
+                                    </tr>
+                                    <tr class="currency dkk">
+                                            <td class="currency_img"><img src="./img/dkk-flag.png"></td>
+                                            <td class="currency_value">1 DKK</td>
+                                            <td class="currency_vip_buy">3.38</td>
+                                            <td class="currency_vip_sell">3.41</td>
+                                    </tr>
+                                    <tr class="currency jpy">
+                                            <td class="currency_img"><img src="./img/jpy-flag.png"></td>
+                                            <td class="currency_value">100 JPY</td>
+                                            <td class="currency_vip_buy">19.45</td>
+                                            <td class="currency_vip_sell">19.60</td>
+                                    </tr>
+                                    <tr class="currency cad">
+                                            <td class="currency_img"><img src="./img/cad-flag.png"></td>
+                                            <td class="currency_value">1 CAD</td>
+                                            <td class="currency_vip_buy">16.05</td>
+                                            <td class="currency_vip_sell">16.38</td>
+                                    </tr>
+                                    <tr class="currency nok">
+                                            <td class="currency_img"><img src="./img/nok-flag.png"></td>
+                                            <td class="currency_value">1 NOK</td>
+                                            <td class="currency_vip_buy">16.05</td>
+                                            <td class="currency_vip_sell">16.38</td>
+                                    </tr>
+                                    <tr class="currency sek">
+                                            <td class="currency_img"><img src="./img/sek-flag.png"></td>
+                                            <td class="currency_value">1 SEK</td>
+                                            <td class="currency_vip_buy">16.05</td>
+                                            <td class="currency_vip_sell">16.38</td>
+                                    </tr>
+                                    <tr class="currency aud">
+                                            <td class="currency_img"><img src="./img/aud-flag.png"></td>
+                                            <td class="currency_value">1 AUD</td>
+                                            <td class="currency_vip_buy">16.05</td>
+                                            <td class="currency_vip_sell">16.38</td>
+                                    </tr>
+                                    <tr class="currency rub">
+                                            <td class="currency_img"><img src="./img/rub-flag.png"></td>
+                                            <td class="currency_value">100 RUB</td>
+                                            <td class="currency_vip_buy">16.05</td>
+                                            <td class="currency_vip_sell">16.38</td>
+                                    </tr>
+                                    <tr class="currency hrk">
+                                            <td class="currency_img"><img src="./img/hrk-flag.png"></td>
+                                            <td class="currency_value">1 HRK</td>
+                                            <td class="currency_vip_buy">16.05</td>
+                                            <td class="currency_vip_sell">16.38</td>
+                                    </tr>
+                                    <tr class="currency huf">
+                                            <td class="currency_img"><img src="./img/huf-flag.png"></td>
+                                            <td class="currency_value">1 HUF</td>
+                                            <td class="currency_vip_buy">16.05</td>
+                                            <td class="currency_vip_sell">16.38</td>
+                                    </tr>
+                                    <tr class="currency uah">
+                                            <td class="currency_img"><img src="./img/uah-flag.png"></td>
+                                            <td class="currency_value">1 UAH</td>
+                                            <td class="currency_vip_buy">16.05</td>
+                                            <td class="currency_vip_sell">16.38</td>
+                                    </tr>
+                                    <tr class="currency pln">
+                                            <td class="currency_img"><img src="./img/pln-flag.png"></td>
+                                            <td class="currency_value">1 PLN</td>
+                                            <td class="currency_vip_buy">16.05</td>
+                                            <td class="currency_vip_sell">16.38</td>
+                                    </tr>
+                                </tbody>
+        
+                        </table>
+
+                <table id="ratetable" class="courses_table">
+                    <thead>
+                        <th colspan="4" class="ratetable_text">Текущие курсы</th>
+                    </thead>
+                    <thead>
+                            <th class="currency" colspan="2" width="30%">Валюта</th>
+                            <th class="buy" width="15%">Покупка</th>
+                            <th class="sell" width="15%">Продажа</th>
+                    </thead>
+                    <tbody>
+                            <tr class="currency eur">
+                                <td class="currency_img"><img src="./img/eur-flag.png"></td>
+                                <td class="currency_value">1 EUR</td>
+                                <td class="currency_buy">25.50</td>
+                                <td class="currency_sell">24.00</td>
+                            </tr>
+                            <tr class="currency usd">
+                                    <td class="currency_img"><img src="./img/usd-flag.png"></td>
+                                    <td class="currency_value">1 USD</td>
+                                    <td class="currency_buy">20.50</td>
+                                    <td class="currency_sell">21.00</td>
+                            </tr>
+                            <tr class="currency gbp">
+                                    <td class="currency_img"><img src="./img/gbp-flag.png"></td>
+                                    <td class="currency_value">1 GBP</td>
+                                    <td class="currency_buy">28.00</td>
+                                    <td class="currency_sell">28.80</td>
+                            </tr>
+                            <tr class="currency chf">
+                                    <td class="currency_img"><img src="./img/chf-flag.png"></td>
+                                    <td class="currency_value">1 CHF</td>
+                                    <td class="currency_buy">21.00</td>
+                                    <td class="currency_sell">22.10</td>
+                            </tr>
+                            <tr class="currency dkk">
+                                    <td class="currency_img"><img src="./img/dkk-flag.png"></td>
+                                    <td class="currency_value">1 DKK</td>
+                                    <td class="currency_buy">3.30</td>
+                                    <td class="currency_sell">3.45</td>
+                            </tr>
+                            <tr class="currency jpy">
+                                    <td class="currency_img"><img src="./img/jpy-flag.png"></td>
+                                    <td class="currency_value">100 JPY</td>
+                                    <td class="currency_buy">18.50</td>
+                                    <td class="currency_sell">19.90</td>
+                            </tr>
+                            <tr class="currency cad">
+                                    <td class="currency_img"><img src="./img/cad-flag.png"></td>
+                                    <td class="currency_value">1 CAD</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                            </tr>
+                            <tr class="currency nok">
+                                    <td class="currency_img"><img src="./img/nok-flag.png"></td>
+                                    <td class="currency_value">1 NOK</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                            </tr>
+                            <tr class="currency sek">
+                                    <td class="currency_img"><img src="./img/sek-flag.png"></td>
+                                    <td class="currency_value">1 SEK</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                            </tr>
+                            <tr class="currency aud">
+                                    <td class="currency_img"><img src="./img/aud-flag.png"></td>
+                                    <td class="currency_value">1 AUD</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                            </tr>
+                            <tr class="currency rub">
+                                    <td class="currency_img"><img src="./img/rub-flag.png"></td>
+                                    <td class="currency_value">100 RUB</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                            </tr>
+                            <tr class="currency hrk">
+                                    <td class="currency_img"><img src="./img/hrk-flag.png"></td>
+                                    <td class="currency_value">1 HRK</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                            </tr>
+                            <tr class="currency huf">
+                                    <td class="currency_img"><img src="./img/huf-flag.png"></td>
+                                    <td class="currency_value">1 HUF</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                            </tr>
+                            <tr class="currency uah">
+                                    <td class="currency_img"><img src="./img/uah-flag.png"></td>
+                                    <td class="currency_value">1 UAH</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                            </tr>
+                            <tr class="currency pln">
+                                    <td class="currency_img"><img src="./img/pln-flag.png"></td>
+                                    <td class="currency_value">1 PLN</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                            </tr>
+                        </tbody>
+
+                </table>
+
+                <table id="ratetable_vip" class="courses_table">
+                        <thead>
+                            <th colspan="4" class="ratetable_text">VIP - курсы</th>
+                        </thead>
+                        <thead>
+                                <th class="currency" colspan="2" width="30%">Валюта</th>
+                                <th class="buy" width="15%">Покупка</th>
+                                <th class="sell" width="15%">Продажа</th>
+                        </thead>
+                        <tbody>
+                                <tr class="currency eur">
+                                    <td class="currency_img"><img src="./img/eur-flag.png"></td>
+                                    <td class="currency_value">1 EUR</td>
+                                    <td class="currency_vip_buy">25.59</td>
+                                    <td class="currency_vip_sell">25.00</td>
+                                </tr>
+                                <tr class="currency usd">
+                                        <td class="currency_img"><img src="./img/usd-flag.png"></td>
+                                        <td class="currency_value">1 USD</td>
+                                        <td class="currency_vip_buy">20.79</td>
+                                        <td class="currency_vip_sell">20.90</td>
+                                </tr>
+                                <tr class="currency gbp">
+                                        <td class="currency_img"><img src="./img/gbp-flag.png"></td>
+                                        <td class="currency_value">1 GBP</td>
+                                        <td class="currency_vip_buy">28.47</td>
+                                        <td class="currency_vip_sell">28.70</td>
+                                </tr>
+                                <tr class="currency chf">
+                                        <td class="currency_img"><img src="./img/chf-flag.png"></td>
+                                        <td class="currency_value">1 CHF</td>
+                                        <td class="currency_vip_buy">21.95</td>
+                                        <td class="currency_vip_sell">22.05</td>
+                                </tr>
+                                <tr class="currency dkk">
+                                        <td class="currency_img"><img src="./img/dkk-flag.png"></td>
+                                        <td class="currency_value">1 DKK</td>
+                                        <td class="currency_vip_buy">3.38</td>
+                                        <td class="currency_vip_sell">3.41</td>
+                                </tr>
+                                <tr class="currency jpy">
+                                        <td class="currency_img"><img src="./img/jpy-flag.png"></td>
+                                        <td class="currency_value">100 JPY</td>
+                                        <td class="currency_vip_buy">19.45</td>
+                                        <td class="currency_vip_sell">19.60</td>
+                                </tr>
+                                <tr class="currency cad">
+                                        <td class="currency_img"><img src="./img/cad-flag.png"></td>
+                                        <td class="currency_value">1 CAD</td>
+                                        <td class="currency_vip_buy">16.05</td>
+                                        <td class="currency_vip_sell">16.38</td>
+                                </tr>
+                                <tr class="currency nok">
+                                        <td class="currency_img"><img src="./img/nok-flag.png"></td>
+                                        <td class="currency_value">1 NOK</td>
+                                        <td class="currency_vip_buy">16.05</td>
+                                        <td class="currency_vip_sell">16.38</td>
+                                </tr>
+                                <tr class="currency sek">
+                                        <td class="currency_img"><img src="./img/sek-flag.png"></td>
+                                        <td class="currency_value">1 SEK</td>
+                                        <td class="currency_vip_buy">16.05</td>
+                                        <td class="currency_vip_sell">16.38</td>
+                                </tr>
+                                <tr class="currency aud">
+                                        <td class="currency_img"><img src="./img/aud-flag.png"></td>
+                                        <td class="currency_value">1 AUD</td>
+                                        <td class="currency_vip_buy">16.05</td>
+                                        <td class="currency_vip_sell">16.38</td>
+                                </tr>
+                                <tr class="currency rub">
+                                        <td class="currency_img"><img src="./img/rub-flag.png"></td>
+                                        <td class="currency_value">100 RUB</td>
+                                        <td class="currency_vip_buy">16.05</td>
+                                        <td class="currency_vip_sell">16.38</td>
+                                </tr>
+                                <tr class="currency hrk">
+                                        <td class="currency_img"><img src="./img/hrk-flag.png"></td>
+                                        <td class="currency_value">1 HRK</td>
+                                        <td class="currency_vip_buy">16.05</td>
+                                        <td class="currency_vip_sell">16.38</td>
+                                </tr>
+                                <tr class="currency huf">
+                                        <td class="currency_img"><img src="./img/huf-flag.png"></td>
+                                        <td class="currency_value">1 HUF</td>
+                                        <td class="currency_vip_buy">16.05</td>
+                                        <td class="currency_vip_sell">16.38</td>
+                                </tr>
+                                <tr class="currency uah">
+                                        <td class="currency_img"><img src="./img/uah-flag.png"></td>
+                                        <td class="currency_value">1 UAH</td>
+                                        <td class="currency_vip_buy">16.05</td>
+                                        <td class="currency_vip_sell">16.38</td>
+                                </tr>
+                                <tr class="currency pln">
+                                        <td class="currency_img"><img src="./img/pln-flag.png"></td>
+                                        <td class="currency_value">1 PLN</td>
+                                        <td class="currency_vip_buy">16.05</td>
+                                        <td class="currency_vip_sell">16.38</td>
+                                </tr>
+                            </tbody>
+    
+                    </table>
+
+                <table class="courses_table" id="ratetable_big">
+                        <thead>
+                            <th colspan="4" class="ratetable_text">Current rates</th>
+                            <th colspan="2" class="ratetable_text">VIP - rates</th>
+                        </thead>
+                        <thead>
+                            <th class="currency" colspan="2" width="30%">Currency</th>
+                            <th class="buy" width="15%">Buy</th>
+                            <th class="sell" width="15%">Sell</th>
+                            <th class="vip"  width="15%">Buy</th>
+                            <th class="vip"  width="15%">Sell</th>
+                        </thead>
+                        <tbody>
+                            <tr class="currency eur">
+                                <td class="currency_img"><img src="./img/eur-flag.png"></td>
+                                <td class="currency_value">1 EUR</td>
+                                <td class="currency_buy">25.50</td>
+                                <td class="currency_sell">24.00</td>
+                                <td class="currency_vip_buy">25.59</td>
+                                <td class="currency_vip_sell">25.00</td>
+                            </tr>
+                            <tr class="currency usd">
+                                    <td class="currency_img"><img src="./img/usd-flag.png"></td>
+                                    <td class="currency_value">1 USD</td>
+                                    <td class="currency_buy">20.50</td>
+                                    <td class="currency_sell">21.00</td>
+                                    <td class="currency_vip_buy">20.79</td>
+                                    <td class="currency_vip_sell">20.90</td>
+                            </tr>
+                            <tr class="currency gbp">
+                                    <td class="currency_img"><img src="./img/gbp-flag.png"></td>
+                                    <td class="currency_value">1 GBP</td>
+                                    <td class="currency_buy">28.00</td>
+                                    <td class="currency_sell">28.80</td>
+                                    <td class="currency_vip_buy">28.47</td>
+                                    <td class="currency_vip_sell">28.70</td>
+                            </tr>
+                            <tr class="currency chf">
+                                    <td class="currency_img"><img src="./img/chf-flag.png"></td>
+                                    <td class="currency_value">1 CHF</td>
+                                    <td class="currency_buy">21.00</td>
+                                    <td class="currency_sell">22.10</td>
+                                    <td class="currency_vip_buy">21.95</td>
+                                    <td class="currency_vip_sell">22.05</td>
+                            </tr>
+                            <tr class="currency dkk">
+                                    <td class="currency_img"><img src="./img/dkk-flag.png"></td>
+                                    <td class="currency_value">1 DKK</td>
+                                    <td class="currency_buy">3.30</td>
+                                    <td class="currency_sell">3.45</td>
+                                    <td class="currency_vip_buy">3.38</td>
+                                    <td class="currency_vip_sell">3.41</td>
+                            </tr>
+                            <tr class="currency jpy">
+                                    <td class="currency_img"><img src="./img/jpy-flag.png"></td>
+                                    <td class="currency_value">100 JPY</td>
+                                    <td class="currency_buy">18.50</td>
+                                    <td class="currency_sell">19.90</td>
+                                    <td class="currency_vip_buy">19.45</td>
+                                    <td class="currency_vip_sell">19.60</td>
+                            </tr>
+                            <tr class="currency cad">
+                                    <td class="currency_img"><img src="./img/cad-flag.png"></td>
+                                    <td class="currency_value">1 CAD</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                                    <td class="currency_vip_buy">16.05</td>
+                                    <td class="currency_vip_sell">16.38</td>
+                            </tr>
+                            <tr class="currency nok">
+                                    <td class="currency_img"><img src="./img/nok-flag.png"></td>
+                                    <td class="currency_value">1 NOK</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                                    <td class="currency_vip_buy">16.05</td>
+                                    <td class="currency_vip_sell">16.38</td>
+                            </tr>
+                            <tr class="currency sek">
+                                    <td class="currency_img"><img src="./img/sek-flag.png"></td>
+                                    <td class="currency_value">1 SEK</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                                    <td class="currency_vip_buy">16.05</td>
+                                    <td class="currency_vip_sell">16.38</td>
+                            </tr>
+                            <tr class="currency aud">
+                                    <td class="currency_img"><img src="./img/aud-flag.png"></td>
+                                    <td class="currency_value">1 AUD</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                                    <td class="currency_vip_buy">16.05</td>
+                                    <td class="currency_vip_sell">16.38</td>
+                            </tr>
+                            <tr class="currency rub">
+                                    <td class="currency_img"><img src="./img/rub-flag.png"></td>
+                                    <td class="currency_value">100 RUB</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                                    <td class="currency_vip_buy">16.05</td>
+                                    <td class="currency_vip_sell">16.38</td>
+                            </tr>
+                            <tr class="currency hrk">
+                                    <td class="currency_img"><img src="./img/hrk-flag.png"></td>
+                                    <td class="currency_value">1 HRK</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                                    <td class="currency_vip_buy">16.05</td>
+                                    <td class="currency_vip_sell">16.38</td>
+                            </tr>
+                            <tr class="currency huf">
+                                    <td class="currency_img"><img src="./img/huf-flag.png"></td>
+                                    <td class="currency_value">1 HUF</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                                    <td class="currency_vip_buy">16.05</td>
+                                    <td class="currency_vip_sell">16.38</td>
+                            </tr>
+                            <tr class="currency uah">
+                                    <td class="currency_img"><img src="./img/uah-flag.png"></td>
+                                    <td class="currency_value">1 UAH</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                                    <td class="currency_vip_buy">16.05</td>
+                                    <td class="currency_vip_sell">16.38</td>
+                            </tr>
+                            <tr class="currency pln">
+                                    <td class="currency_img"><img src="./img/pln-flag.png"></td>
+                                    <td class="currency_value">1 PLN</td>
+                                    <td class="currency_buy">16.00</td>
+                                    <td class="currency_sell">16.50</td>
+                                    <td class="currency_vip_buy">16.05</td>
+                                    <td class="currency_vip_sell">16.38</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                        <div class="table_info" id="info_cz">
+                                <p><i class="fas fa-info-circle fa-fw"></i> Nákup: směnárna nakupuje valuty - klient prodává</p>
+                                <p><i class="fas fa-info-circle  fa-fw"></i> Prodej: směnárna valuty prodává - klient nakupuje</p>
+                                <br>
+                                <p><i class="fas fa-info-circle  fa-fw"></i> VIP nákup: směnárna nakupuje valuty za kurz VIP - klient prodává</p>
+                                <p><i class="fas fa-info-circle  fa-fw"></i> VIP prodej: směnárna prodává valuty za kurz VIP - klient nakupuje</p>
+                        </div>
+                        <div class="table_info" id="info_en">
+                                <p><i class="fas fa-info-circle fa-fw"></i> Buy: exchanger buys currency - customer sells</p>
+                                <p><i class="fas fa-info-circle  fa-fw"></i> Sell: exchanger sells currency - customer buys</p>
+                                <br>
+                                <p><i class="fas fa-info-circle  fa-fw"></i> VIP buy: exchanger buys currency - customer sells</p>
+                                <p><i class="fas fa-info-circle  fa-fw"></i> VIP sell: exchanger sells currency - customer buys</p>
+                        </div>
+                        <div class="table_info" id="info_ru">
+                                <p><i class="fas fa-info-circle fa-fw"></i> Покупка: обменник покупает валюту - клиент продаёт</p>
+                                <p><i class="fas fa-info-circle  fa-fw"></i> Продажа: обменник продаёт валюту - клиент покупает</p>
+                                <br>
+                                <p><i class="fas fa-info-circle  fa-fw"></i> VIP покупка: обменник покупает валюту - клент продаёт</p>
+                                <p><i class="fas fa-info-circle  fa-fw"></i> VIP продажа: обменник продаёт валюту - клиент покупает</p>
+                        </div>
+            </div>
+            <div class="calculator">
+                <h3>Currency Calculator</h3>
+                <form>
+                    <select id="options">
+                        <option value="sell">I want to sell</option>
+                        <option value="buy">I want to buy</option>
+                    </select>                      
+                    <label>Amount</label>
+                    <input type="number" id="value" placeholder="1000">
+                    <label>Currency</label>
+                    <select id="currency_options">
+                        <option>EUR</option>
+                        <option>USD</option>
+                        <option>GBP</option>
+                        <option>CHF</option>
+                        <option>DKK</option>
+                        <option>JPY</option>
+                        <option>CAD</option>
+                        <option>NOK</option>
+                        <option>SEK</option>
+                        <option>AUD</option>
+                        <option>RUB</option>
+                        <option>HRK</option>
+                        <option>HUF</option>
+                        <option>UAH</option>
+                        <option>PLN</option>
+                    </select>
+                    <button type="button" id="btn_calc">Calculate</button>
+                </form>
+                <div id="calculation_result">
+                    <p id="result_text">
+                        <span id="result_show_option">Selling</span>
+                        <br>
+                        <span id="result_show_value">1000</span>
+                        <span id="result_show_currency">EUR</span> = <span id="result_value">0</span> CZK</p>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="contact_footer">
+            <div class="contact_container">
+                <div class="contacts_info">
+                        <div class="contacts">
+                                <h3>Contact details</h3>
+                                <p><i class="fas fa-mobile-alt fa-lg fa-fw"></i>+420 777 080 771</p>
+                                <p><i class="far fa-envelope fa-lg fa-fw"></i>info@phoenix-exchange.cz</p>
+                                <a href="https://vk.com/broadwaychange"> <i class="fab fa-vk fa-2x fa-fw"></i></a>
+                                
+                            </div>
+                            <div class="location">
+                                <h3>Address</h3>
+                                <p id="location">
+                                <i class="far fa-compass fa-lg fa-fw"></i>Vodičkova 41
+                                <br>
+                                    <span>Praha-Nové Město, 110 00</span> 
+                                <br>
+                                </p>
+                            </div>
+                    </div>
+                    <div class="map_container">
+                        <div id="map"></div>
+                    </div>
+                    
+            </div>
+        </section>
+        <footer>
+            <p>Copyright ©2018 PHOENIX-EXCHANGE s.r.o. Všechna práva vyhrazena.</p>
+        </footer>
+        <script src="scripts/languages.js"></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/map.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJRoiAr5jllpvWRQjWA6hXSKmNisGLqoQ&callback=initMap"></script>
+    </body>
+</html>
